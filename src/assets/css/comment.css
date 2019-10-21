@@ -1,0 +1,133 @@
+@import '~antd/dist/antd.css';
+.oComment  .oC_nav{
+    line-height:1rem ;
+}
+.oComment   .oC_nav  .box{
+    width: 50%;
+}
+.oComment   .oC_nav  .nav_box{
+    display: flex;
+    justify-content:flex-start;
+}
+.oComment   .oC_nav  .nav_box p{
+    font-size: 0.34rem;
+    text-align: left;
+    margin-left:0.6rem;
+}
+.oComment   .oC_nav .box_righr{
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 0.3rem;
+}
+/*————————————————评论信息————————————————*/
+.oComment   .oCom_box{
+    position: relative;
+    top:1rem;
+    width: 100%;
+    background: white;
+    /*min-height: 100%;*/
+    /*max-height: 15rem;*/
+}
+/*————虚位以待————*/
+.oComment  .oCom_box  .long_comment{
+    border-bottom:0.01rem solid #dedede;
+}
+.oComment  .oCom_box  .long_comment .nothing{
+    width: 100%;
+    height: 0;
+    position:relative;
+    padding:68% 0;
+    border-top: 0.01rem solid #dedede;
+}
+.oComment  .oCom_box .long_comment  .nothing .nothing_box{
+    color: #dbdbdb;
+    width: 3rem;
+    height: 3.5rem;
+    font-size: 0.3rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
+}
+.oComment  .oCom_box   .long_comment .nothing .nothing_box span{
+  font-size: 3rem;
+}
+/*————长评————*/
+/*数目*/
+.oComment  .oCom_box .long_comment .long_num{
+    padding: 0 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1rem;
+}
+.oComment  .oCom_box .long_comment .oLon{
+    border-top: 0;
+}
+.oComment  .oCom_box .long_num h3{
+    font-size: 0.3rem;
+}
+/*评论列表*/
+.oComment  .oCom_box .long_comment .long_list{
+    width: 100%;
+}
+.oComment  .oCom_box  .long_list li{
+    border-top: 0.01rem solid #dedede;
+    padding: 0.36rem 0.3rem ;
+    display: flex;
+    justify-content: flex-start;
+}
+/*用户头像*/
+.oComment  .oCom_box  .long_comment .long_list li .oHead{
+    width: 0.8rem;
+    margin-right: 0.2rem;
+}
+.oComment  .oCom_box .long_comment .long_list li .oHead .oHead_box{
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #dbdbdb;
+    border-radius: 50%;
+}
+.oComment  .oCom_box  .long_list li .oHead .oHead_box .bg{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: darkcyan;
+}
+/*用户名/用户评论/时间*/
+.oComment  .oCom_box  .long_comment  .long_list li .oMultiple{
+    width: 100%;
+}
+/*用户名*/
+.oComment  .oCom_box .long_comment  .long_list li .oMultiple .user{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 0.8rem;
+    font-size: 0.3rem;
+}
+.oComment  .oCom_box .long_comment  .long_list li .oMultiple .user .uset_zan{
+    color: darkgrey;
+}
+.oComment  .oCom_box  .long_comment .long_list li .oMultiple .user .uset_zan i{
+    margin-left: 0.3rem;
+}
+/*用户评论*/
+.oComment  .oCom_box .long_comment .long_list li .oMultiple .user_com{
+    color: black;
+    font-size: 0.34rem;
+    margin-bottom: 0.3rem;
+}
+/*时间*/
+.oComment  .oCom_box  .long_comment .long_list li .oMultiple .oTime{
+    color: #969896;
+    font-size: 0.26rem;
+}
+/*————短评————*/
+.oComment  .short_comment{
+    border-bottom:0.01rem solid #dedede;
+}
+.oComment  .short_comment .long_num .ss{
+    color: #dbdbdb;
+}

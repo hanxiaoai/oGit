@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+.details .nav{
+    width: 100%;
+    height: 1rem;
+    line-height:1rem ;
+    position: fixed;
+    top: 0;
+    background: #00a2ed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+}
+.details .nav .nav_box{
+    width: 35%;
+    padding-right:  0;
+    color: white;
+    padding-left: 0.3rem;
+}
+.details .nav .nav_box span{
+    font-size: 0.6rem
+}
+.details .nav  .box_righr {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    font-size: 0.25rem;
+}
+.details .nav  .box_righr  span{
+    display: inline-block;
+    font-size: 0.4rem;
+    color: white;
+}
+
+    /*————————————内容——————————*/
+.details  .section{
+    position: relative;
+    top: 0.76rem;
+    width: 100%;
+}
